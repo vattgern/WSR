@@ -18,6 +18,7 @@ form{
     height: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .shift-title{
     width: 100%;
@@ -118,4 +119,23 @@ form{
     color: #C290E5;
     font-size: 22px;
     font-weight: bold;
+}
+button{
+    margin: 30px 0;
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
 }
