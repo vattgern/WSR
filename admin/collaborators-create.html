@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация сотрудника</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/collaborators-create.css">
+</head>
+<body>
+<header>
+  <img src="../images/logo.svg" alt="">
+
+  <div></div>
+</header>
+<section>
+  <form action="">
+    <label for="surname">
+      <p>Логин</p>
+      <input type="text" name="login" id="surname">
+    </label>
+    <label for="name">
+      <p>Имя</p>
+      <input type="text" name="name" id="name">
+    </label>
+    <label for="password">
+      <p>Пароль</p>
+      <input type="password" name="password" id="password">
+    </label>
+    <label for="password_confirmation">
+      <p>Повторите пароль</p>
+      <input type="password" name="password_confirmation" id="password_confirmation">
+    </label>
+    <label for="standard-select" class="select-custom">
+      <p>Роль</p>
+      <div class="select">
+        <select name="role" id="standard-select">
+          <option>Повар</option>
+          <option>Официант</option>
+          <option>Админ</option>
+        </select>
+        <span class="focus"></span>
+      </div>
+    </label>
+    <label for="#file">
+      <div class="file-input">
+        <input type="file" id="file">
+        <p class="file-input-trigger">
+          Выберите файл
+        </p>
+      </div>
+    </label>
+    <button type="submit">Создать</button>
+  </form>
+</section>
+</body>
+</html>

@@ -1,8 +1,11 @@
 body{
     background-color: #F9EEFF;
     background-image: url("../images/back-admin-user.png");
-    background-position: bottom;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+
+    overflow: hidden;
 }
 
 section{
@@ -33,7 +36,7 @@ section{
 }
 .users-area{
     width: 75%;
-    height: 725px;
+    height: 75vh;
 
     gap: 25px;
     overflow-y: auto;
@@ -75,4 +78,13 @@ section{
     color: #F9EEFF;
     border: none;
     outline: none;
+}
+.avatar{
+    width: 100px;
+    height: 100%;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

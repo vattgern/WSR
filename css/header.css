@@ -22,6 +22,7 @@ header div{
     align-items: center;
 }
 header div p{
+    cursor: pointer;
     color: #EF7BBA;
     font-weight: bold;
     border-bottom: 2px #EF7BBA solid;
